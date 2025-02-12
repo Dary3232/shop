@@ -1,0 +1,108 @@
+.product {
+  display: flex;
+  position: relative;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(68, 68, 68, 10%);
+}
+
+.photo {
+  max-width: 130px;
+  width: 100%;
+  max-height: 140px;
+  height: 100%;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+}
+
+.titleCart {
+  font-family: Josefin Sans;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.priceWrapper {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceAndQuantity {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.price {
+  display: flex;
+  gap: 15px;
+}
+
+.currentPrice {
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.oldPrice {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  color: rgba(68, 68, 68, 1);
+  text-decoration: line-through;
+}
+
+.quantity {
+  background: rgba(248, 248, 251, 1);
+  display: flex;
+  gap: 20px;
+  padding: 17px 23px;
+  max-width: 109px;
+  align-items: center;
+  justify-content: center;
+}
+
+.count {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.countButton {
+  cursor: pointer;
+  color: rgba(153, 153, 153, 1);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.totalPrice {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3px 7px;
+  border: 1px solid rgba(68, 68, 68, 10%);
+  color: rgba(153, 153, 153, 1);
+  cursor: pointer;
+}

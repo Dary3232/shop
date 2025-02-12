@@ -1,0 +1,199 @@
+.containerFooter {
+    max-width: 1920px;
+    width: 100%;
+    margin: 120px auto 0;
+}
+
+.pointsFooter {
+    position: relative;
+    border-top: 20px solid rgba(238, 238, 238, 1);
+}
+
+.pointsFooter130 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+ 
+.pointsFooter290 {
+    position: absolute;
+    top: 85px;
+    right: 30px;
+}
+
+.footerInfo {
+    margin-top: 110px;
+    display: flex;
+    gap: 80px;
+}
+
+.containerInfoCopyright {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.title {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.column1 {
+    max-width: 321px;
+}
+
+.column3 {
+    max-width: 119px;
+}
+
+.column4 {
+    max-width: 361px;
+}
+
+.column4 .title {
+    margin-bottom: 16px;
+}
+
+.newsletterTextFooter {
+    margin-bottom: 36px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:  rgba(119, 119, 119, 1);
+}
+
+.newsletterForm {
+    position: relative;
+}
+
+.input {
+    padding: 0 30px 16px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sendIcon {
+    position: absolute;
+  
+}
+
+.customList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.column2,
+.column3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column2 .customList,
+.column3 .customList {
+    margin-left: 0;
+}
+
+.footerInfo .item::before {
+    width: 3px;
+    height: 3px;
+}
+
+.footerInfo a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(68, 68, 68, 1);
+}
+
+.logo {
+    margin-bottom: 25px;
+}
+
+.aboutBrend {
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(68, 68, 68, 20%) ;
+    margin-bottom: 35px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(68, 68, 68, 1);
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    border-top: 1px solid rgba(68, 68, 68, 20%);
+    padding-top: 23px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 1140px;
+    width: 100%;
+}
+
+.paymentMethodsContainer {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(68, 68, 68, 1);
+}
+
+.paymentMethods {
+    display: flex;
+    gap: 8px;
+}
+
+.findUsText {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1); 
+}
+
+.findUsLinks {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.line {
+    height: 1px;
+    border-bottom: 1px solid #444444;
+    width: 10px;
+}
+
+.item {
+    color: rgba(68, 68, 68, 1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.item::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-image: url(/public/icons/square.svg);
+}

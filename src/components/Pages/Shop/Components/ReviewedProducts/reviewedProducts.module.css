@@ -1,0 +1,83 @@
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebarTitle {
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    padding-bottom: 15px;
+}
+
+.reviewedProducts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reviewedProduct {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.image {
+    width: 75px;
+    height: 85px;
+    background: rgba(241, 242, 243, 1);
+}
+
+.productImage {
+    width: 100%;
+}
+
+.reviewedInfo {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(68, 68, 68, 1);
+}
+
+.nameProduct {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+}   
+
+.currentPrice {
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.oldPrice {
+    font-family: Josefin Sans;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    color: rgba(68, 68, 68, 1);
+    text-decoration: line-through;
+}
+
+.productsWrapper {
+    max-width: 846px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

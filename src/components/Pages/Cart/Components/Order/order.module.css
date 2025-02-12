@@ -1,0 +1,103 @@
+.order {
+  max-width: 360px;
+  width: 100%;
+  padding: 40px;
+  border: 1px solid rgba(68, 68, 68, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orderPriceWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titleCart {
+  font-family: Josefin Sans;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(68, 68, 68, 1);
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(68, 68, 68, 10%);
+}
+
+.additional {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.total {
+  font-size: 20px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.price.total {
+  font-size: 25px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.priceRow.delimiter {
+  border-bottom: 2px solid rgba(68, 68, 68, 1);
+}
+
+.priceRow.total {
+  border-bottom: none;
+}
+
+.price {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(68, 68, 68, 1);
+}
+
+.promo {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.buttonWrapper {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  border: none;
+  background: rgba(0, 0, 0, 1);
+  padding: 17px 74px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.verticalLineCart {
+  width: 2px;
+  height: 50px;
+  background: rgba(0, 0, 0, 1);
+}
+

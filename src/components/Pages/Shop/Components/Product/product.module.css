@@ -1,0 +1,88 @@
+.product {
+    max-width: 262px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo {
+    min-height: 360px;
+    background: #F1F2F3;
+    position: relative;
+}
+
+.productImage {
+    width: 100%;
+}
+
+.topBar {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 222px;
+    width: 100%;
+}
+
+.favorites {
+    cursor: pointer;
+}
+
+.labels {
+    display: flex;
+    gap: 15px;
+}
+
+.label {
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background: rgba(255, 142, 142, 1);
+}
+
+.label.new {
+    background: rgba(149, 204, 181, 1);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.buyBtn {
+    cursor: pointer;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+}   
+
+.currentPrice {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.oldPrice {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: rgba(68, 68, 68, 1);
+    text-decoration: line-through;
+}

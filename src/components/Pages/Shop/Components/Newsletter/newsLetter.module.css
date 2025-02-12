@@ -1,0 +1,82 @@
+.containerNewsletter {
+    max-width: 1680px;
+    width: 100%;
+    margin: 200px auto 0;
+}
+
+.newsletterBox {
+    background: rgba(241, 242, 243, 1);
+    padding: 0 0 162px 275px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+    max-width: 624px;
+    padding: 60px;
+}
+
+.pointsNewsletter {
+    position: absolute;
+    right: 30px;
+    top: -33px;
+}
+
+.titleNewsletter {
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.newsletterText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.newsletterFormEmail {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.inputNewsletter {
+    border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 20%);
+    color: rgba(68, 68, 68, 50%);
+    outline: none;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.buttonWrapperNewsletter {
+    display: flex;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.buttonNewsletter {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    border: none;
+    background: rgba(0, 0, 0, 1);
+    padding: 17px 30px;
+    cursor: pointer;
+    text-align: center;
+    max-width: 136px;
+}
+
+.verticalLineNewsletter {
+    width: 2px;
+    height: 50px;
+    background: rgba(0, 0, 0, 1);
+}
+

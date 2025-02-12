@@ -1,0 +1,19 @@
+.containerCart {
+  max-width: 1140px;
+  width: 100%;
+  margin: 200px auto 0;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
